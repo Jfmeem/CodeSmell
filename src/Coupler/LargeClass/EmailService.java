@@ -1,0 +1,9 @@
+package Coupler.LargeClass;
+
+import dispensible.Comments.Order;
+
+public class EmailService {
+    public void sendConfirmationEmail(Order order) {
+        System.out.println("Sending confirmation email");
+    }
+}
